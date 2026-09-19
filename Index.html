@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Interview Ace SA</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body>
+
+  <div class="app-header">
+
+    <h1>🎯 Interview Ace SA</h1>
+
+    <p>
+      Practice. Prepare. Get Hired.
+    </p>
+
+  </div>
+
+
+  <input
+    type="text"
+    id="search"
+    placeholder="🔎 Search interview questions..."
+  >
+
+
+  <div class="home-card">
+
+    <h2>👋 Welcome!</h2>
+
+    <p>
+      Prepare for your next interview with
+      practice questions, suggested answers
+      and feedback.
+    </p>
+    
+  </div>
+
+
+  <h2>⚡ Quick Start</h2>
+
+<button onclick="startMockInterview()">
+  🎤 Start Mock Interview
+</button>
+
+<button onclick="showAIInterviewCoach()">
+  🤖 AI Interview Coach
+</button>
+
+<button onclick="openVideoRecorder()">
+  🎥 Video Recorder
+</button>
+
+
+  <h2>🎯 What would you like to practice?</h2>
+
+  <p>
+    Choose an interview category to start practicing.
+  </p>
+
+
+  <h2>📚 Interview Categories</h2>
+
+
+  <h3>💼 Finance & Office</h3>
+
+
+  <div class="category-grid">
+
+    <button onclick="startInterview('finance')">
+      💼 Finance
+    </button>
+
+    <button onclick="startInterview('payroll')">
+      🧾 Payroll
+    </button>
+
+    <button onclick="startInterview('receptionist')">
+      🏢 Receptionist
+    </button>
+
+    <button onclick="startInterview('hr')">
+      👥 Human Resources
+    </button>
+
+    <button onclick="startInterview('administration')">
+      🗂️ Administration
+    </button>
+
+    <button onclick="startInterview('graduate')">
+      🎓 Graduate & Entry-Level
+    </button>
+
+  </div>
+
+
+  <h3>🏨 Hospitality</h3>
+
+
+  <div class="category-grid">
+
+    <button onclick="startInterview('barista')">
+      ☕ Barista
+    </button>
+    
+  </div>
+
+
+  <h2>💡 Interview Tips</h2>
+
+
+  <button onclick="showTips()">
+    💡 View Interview Tips
+  </button>
+
+
+  <div id="content"></div>
+
+  <script src="app.js"></script>
+ 
+</body>
+
+</html>
+    
